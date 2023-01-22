@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Lobster&family=Open+Sans:wght@400;600;700;800&family=Oswald&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              price: "#FABE4C",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="bg-orange-50">
+      <!-- Navigation -->
+
+      <!-- Banner -->
+      <div
+        class="container mx-auto py-24 md:flex justify-center items-center mt-12"
+      >
+        <div class="space-y-6">
+          <h1 class="text-7xl font-semibold uppercase">
+            <span class="text-amber-500">Be the Penguins</span> <br />
+            of Winter
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            perspiciatis!
+          </p>
+          <button
+            class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 inline"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+
+            Buy Now
+          </button>
+        </div>
+        <div><img class="w-3/4 md:w-full" src="images/model.png" alt="" /></div>
+      </div>
+    </header>
+
+    <main class="container mx-auto">
+      <!-- Women Jacket Section -->
+      <section class="mt-12">
+        <h2 class="text-5xl font-semibold uppercase">Women Jacket</h2>
+        <!-- Jackets -->
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <!-- Jacket Card 1-->
+          <div class="rounded-2xl drop-shadow-xl p-4">
+            <div class="bg-slate-100 rounded-2xl p-8">
+              <img src="images/jacket-1.png" alt="" />
+            </div>
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione, doloribus?
+              </p>
+              <div class="flex justify-between mt-3">
+                <h2 class="text-4xl font-semibold text-price">$256</h2>
+                <button
+                  class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 inline"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Jacket Card 2-->
+          <div class="rounded-2xl drop-shadow-xl p-4">
+            <div class="bg-slate-100 rounded-2xl p-8">
+              <img src="images/jacket-2.png" alt="" />
+            </div>
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione, doloribus?
+              </p>
+              <div class="flex justify-between mt-3">
+                <h2 class="text-4xl font-semibold text-price">$256</h2>
+                <button
+                  class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 inline"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Jacket Card 3-->
+          <div class="rounded-2xl drop-shadow-xl p-4">
+            <div class="bg-slate-100 rounded-2xl p-8">
+              <img src="images/jacket-3.png" alt="" />
+            </div>
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione, doloribus?
+              </p>
+              <div class="flex justify-between mt-3">
+                <h2 class="text-4xl font-semibold text-price">$256</h2>
+                <button
+                  class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 inline"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Men Jacket Section -->
+      <section class="mt-20">
+        <h2 class="text-5xl font-semibold uppercase">Men Jacket</h2>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <!-- Jacket Card 1-->
+          <div class="rounded-2xl drop-shadow-2xl p-4">
+            <div class="bg-slate-100 rounded-2xl p-8">
+              <img src="images/jacket-4.png" alt="" />
+            </div>
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold">Snowboard Jacket Mens</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                veniam.
+              </p>
+              <div class="flex justify-between mt-3">
+                <h2 class="text-4xl font-semibold text-price">$234</h2>
+                <button
+                  class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 inline"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Jacket Card 2-->
+          <div class="rounded-2xl drop-shadow-2xl p-4">
+            <div class="bg-slate-100 rounded-2xl p-8">
+              <img src="images/jacket-5.png" alt="" />
+            </div>
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold">Snowboard Jacket Mens</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                veniam.
+              </p>
+              <div class="flex justify-between mt-3">
+                <h2 class="text-4xl font-semibold text-price">$234</h2>
+                <button
+                  class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 inline"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Jacket Card 3-->
+          <div class="rounded-2xl drop-shadow-2xl p-4">
+            <div class="bg-slate-100 rounded-2xl p-8">
+              <img src="images/jacket-6.png" alt="" />
+            </div>
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold">Snowboard Jacket Mens</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+                veniam.
+              </p>
+              <div class="flex justify-between mt-3">
+                <h2 class="text-4xl font-semibold text-price">$234</h2>
+                <button
+                  class="py-4 px-8 rounded-lg text-white uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 inline"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+                    />
+                  </svg>
+
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Section -->
+      <section class="grid grid-cols-1 md:grid-cols-2 mt-20">
+        <div
+          class="order-2 md:order-1 flex items-center h-32 justify-between rounded-2xl shadow-xl p-6"
+        >
+          <img class="h-20 w-20" src="images/house.png" alt="" />
+          <div>
+            <h3 class="text-2xl font-semibold">Find the Perfect Fit</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
+              soluta.
+            </p>
+          </div>
+        </div>
+        <div class="order-1 md:order-2 row-span-2 rounded-2xl p-6">
+          <img src="images/shopping.png" alt="" />
+        </div>
+        <div
+          class="order-3 flex items-center h-32 justify-between rounded-2xl shadow-xl p-6"
+        >
+          <img class="h-20 w-20" src="images/house.png" alt="" />
+          <div>
+            <h3 class="text-2xl font-semibold">Find the Perfect Fit</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
+              soluta.
+            </p>
+          </div>
+        </div>
+        <div
+          class="order-4 flex items-center h-32 justify-between rounded-2xl shadow-xl p-6"
+        >
+          <img class="h-20 w-20" src="images/house.png" alt="" />
+          <div>
+            <h3 class="text-2xl font-semibold">Find the Perfect Fit</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam,
+              soluta.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
